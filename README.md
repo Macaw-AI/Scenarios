@@ -12,7 +12,8 @@
 ```json
 {
   "name": "hobbies and the importance of hobbies",
-  "questions": "Having a hobbies, how to find them, why it is worth to have hobbies"
+  "questions": "Having a hobbies, how to find them, why it is worth to have hobbies",
+  "related": ["relations","self development"]
 }
 ```
 
