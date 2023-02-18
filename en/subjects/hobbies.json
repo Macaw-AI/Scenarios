@@ -1,12 +1,8 @@
 {
-  "displayable": {
     "name": "hobbies",
     "related": [
       "relations",
       "self-development"
-    ]
-  },
-  "metadata": {
+    ],
     "questions": "Having a hobbies, how to find them, why it is worth to have hobbies"
-  }
 }

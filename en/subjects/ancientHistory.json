@@ -1,5 +1,4 @@
 {
-  "displayable": {
     "name": "History: antiquity",
     "related": [
       "technologies of the past",
@@ -10,9 +9,6 @@
       "Greece",
       "Sparta",
       "Mezopotamia"
-    ]
-  },
-  "metadata": {
+    ],
     "questions": "Debate about ancient civilizations, their development and culture"
   }
-}

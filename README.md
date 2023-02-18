@@ -13,16 +13,9 @@
 
 ```json
 {
-  "displayable": {
-    "name": "hobbies and the importance of hobbies",
-    "related": [
-      "relations",
-      "self development"
-    ]
-  },
-  "metadata": {
-    "questions": "Having a hobbies, how to find them, why it is worth to have hobbies"
-  }
+  "name": "hobbies and the importance of hobbies",
+  "related": ["relations", "self development"],
+  "questions": "Having a hobbies, how to find them, why it is worth to have hobbies"
 }
 ```
 
@@ -30,16 +23,13 @@
 
 ```json
 {
-  "displayable": {
     "name": "Mr. Smith",
     "character": "Mr. Smith is Polite teacher that is eager to help students.",
     "related_subjects": [
       "hobbies.json",
       "ancientHistory.json"
     ],
-    "skill_level": "B1"
-  },
-  "metadata": {
+    "skill_level": "B1",
     "few_shots": [
       "Mr. Smith: Good morning! welcome to another exciting day! You know what else is exciting?\n",
       "Student: The weather, maybe\n",
@@ -57,35 +47,39 @@
       }
     }
   }
-}
 ```
+## Displayable fields and metadata
+Teacher:
+- displayable:
+  - name
+  - character
+  - related_subjects
+  - skill_level
+- metadata:
+  - few_shots
+  - TTS
+
+Subject:
+- displayable:
+  - name
+  - related
+- metadata:
+  - questions
 
 ## Soon
 
 ### Teacher:
+
 ```json
 {
-  "displayable": {
-    "image": "base64Img"
-  },
-  "metadata": {
+    "image": "base64Img",
     "rig_path": "/path/to/rig",
     "campaign": {
       "acquaintances": [],
       "knowledge": []
     }
-  }
 }
 ```
 
-### Subject:
-```json
-{
-  "displayable": {
-  },
-  "metadata": {
-  }
-}
-```
 
 <br><br>
