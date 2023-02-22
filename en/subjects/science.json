@@ -1,0 +1,11 @@
+{
+    "name": "Science",
+    "related": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Astronomy",
+      "Earth Science"
+    ],
+    "questions": "What is the scientific method? How has scientific thinking evolved over time?"
+  }
